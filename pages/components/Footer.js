@@ -1,7 +1,12 @@
+
+import styles from "../../styles/Footer.module.css"
+
 export default function Footer() {
     return (
-        <footer>
-            <p><span>PokeNext</span> &copy; 2022 by <a href="#">Nicolau Alfredo</a></p>
+        <footer className={styles.footer}>
+            <p>
+                <span>PokeNext</span> &copy; 2022 by <a href="#">Nicolau Alfredo</a>
+            </p>
         </footer>
     )
 }
